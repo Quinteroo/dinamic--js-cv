@@ -1,0 +1,19 @@
+
+
+
+
+
+header, main, footer {
+  width: 100%;
+  margin: 0;
+  background-color:var(--mqg-color-50);
+}
+
+footer {
+  border: 1px solid var(--mqg-color-100);
+}
+
+footer > p {
+  font-size: small;
+  padding: 10px;
+}

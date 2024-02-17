@@ -1,0 +1,31 @@
+
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.skills > ul {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 15px;
+  padding-bottom: 5vh;
+}
+
+.skills > ul > li > img {
+  max-width: 50px;
+}
+
+@media (max-width: 575px) {
+  .skills > ul {
+    width: 90%;
+  }
+}

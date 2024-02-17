@@ -1,0 +1,47 @@
+
+
+header {
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+
+}
+
+.divLogo, .divSlogan, h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.divLogo, .divSlogan {
+  width: 100%;
+  padding: 0px;
+}
+
+.logo {
+  width: 15vw;
+  min-width: 150px;
+}
+
+.slogan {
+  color: var(--mqg-color-10);
+  font-weight: 700;
+  font-size: 15vw;
+  line-height: 1em;
+}
+
+h1 {
+ font-size: small;
+ visibility: hidden;
+}
+
+
+
+@media (max-width: 575px) {
+  .slogan {
+    font-size: 20vw;
+  }
+}

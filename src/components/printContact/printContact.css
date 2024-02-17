@@ -1,0 +1,41 @@
+
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.divAvatar > img {
+  width: 10vw;
+  min-width: 100px;
+  border-radius: 100%;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.divAvatar > img:hover {
+  scale: 1.02;
+  box-shadow: 0px 10px 25px -4px var(--mqg-color-10);
+}
+
+
+.divUl > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 575px) {
+  .contact{
+    display: block;
+  }
+
+  .divUl > ul {
+    align-items: center;
+  }
+}
